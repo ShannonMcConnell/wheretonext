@@ -1,0 +1,163 @@
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.herotext{
+  text-align:center;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 36px;
+  padding: 75px auto;
+}
+.hero{
+  /*background-color: #2F798B;*/
+  /*overflow:hidden;*/
+  background-image: url("../images/mainmap.png");
+  background-repeat:repeat-x;
+  height: 1030px;
+}
+.hero .herotext #logo {
+    align-content: center;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    transition: all 1s;
+  }
+    .hero .herotext #logo:hover{
+      transform: skewX(-25deg);
+    }
+
+.phone{
+  /*position:absolute;*/
+  /*margin: 20px 30%;*/
+  display: flex;
+  justify-content: center;
+
+  vertical-align: top;
+}
+.calltoaction{
+  /*width:800px;*/
+  padding: 50px;
+  display: flex;
+  flex-direction: column;}
+#google{
+  margin:10px;
+}
+#apple{
+  margin:10px;
+}
+
+h1
+{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 54px;
+  color:#B03224;
+  margin: 75px auto auto;
+  text-align: center;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  color:#B03224;
+}
+.featuretitle{
+  margin: 0 auto;
+}
+.featurecopy{
+  margin: 0 auto;
+  font-size: 30px;
+}
+h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  margin: 0 auto;
+}
+.nav{
+  font-family:'Oswald', sans-serif;
+  color:white;
+  font-size: 30px;
+  text-align:right;
+  margin: 0px 20px 0px 0px;
+  list-style-type: none;
+  overflow: auto;
+  height: 100px;
+}
+.nav li{
+  float: right;
+  margin: 20px;
+
+}
+.nav li a{
+  background:#B03224;
+}
+
+.nav li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+}
+
+.nav li:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #B03224;
+  border-radius: 0px;
+}
+
+#explain{
+  color:black;
+  margin: 10px auto 100px;
+  font-size: 40px;
+}
+#tagline{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin: 10px auto 50px;
+  align-content: center;
+}
+
+.feature1{
+  text-align: center;
+  margin: 75px 0px;
+  border-top: 3px solid #2F798B
+}
+.feature2{
+    border-top: 5px solid #2F798B
+}
+#travelcopy{
+  margin:75px auto;
+}
+#navcopy{
+  margin:100px auto;
+}
+#cafephoto{
+  float:right;
+  margin: auto auto auto 50px;
+}
+#featurediv1{
+  margin: 100px 10% 200px 20%;
+  text-align:right;
+}
+
+#event{
+  margin: 100px auto;
+}
+#eventphoto{
+  float: left;
+  margin: auto 50px;
+}
+#featurediv2{
+  margin: 200px 20% 200px 5%;
+  text-align:left;
+}
+footer{
+  background: #2F798B;
+  height: 150px;
+  margin: 0 auto;
+}
+footer .footercalls{
+  text-align: center;
+  padding: 30px;
+}
